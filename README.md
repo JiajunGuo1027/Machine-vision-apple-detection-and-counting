@@ -35,9 +35,10 @@ where `ImageProcessing_30.py` and `ImageProcessing_90.py` used different thresho
 
 The output will include Apple detections with annotations.
 
-![ImageProcessing_90 Result](Results/Image_processing/FigureA1_90.png)
-![ImageProcessing_30 Result](Results/Image_processing/FigureA1_30.png)
-![ImageProcessing_F Result](Results/Image_processing/FigureA1_79F.png)
+![ImageProcessing_90 Result](Results/Image%20processing/FigureA1_90.png)
+![ImageProcessing_30 Result](Results/Image%20processing/FigureA1_30.png)
+![ImageProcessing_F Result](Results/Image%20processing/FigureA1_79F.png)
+
 
 ### **2. Run Approach B**
 
@@ -69,14 +70,14 @@ python test_counting.py
 
 #### **Counting Metrics Visualization**
 1. Scatter plot of predicted counts vs. ground truth counts:
-   ![Scatter Plot](Results/Evaluation_Machine_learning/scatter_diagram.png)
+   ![Scatter Plot](Results/Evaluation%20Machine%20learning/scatter%20diagram.png)
 
 2. Histogram of prediction errors:
-   ![Histogram](Results/Evaluation_Machine_learning/error_histogram.png)
+   ![Histogram](Results/Evaluation%20Machine%20learning/error%20histogram.png)
 
 3. Line plot of predicted vs. ground truth counts:
-   ![Line Plot](Results/Evaluation_Machine_learning/line_plot.png)
+   ![Line Plot](Results/Evaluation%20Machine%20learning/line%20plot.png)
 
 4. Box plot of ground truth and predicted counts:
-   ![Box Plot](Results/Evaluation_Machine_learning/box_plots.png)
+   ![Box Plot](Results/Evaluation%20Machine%20learning/box%20plots.png)
 
