@@ -35,9 +35,11 @@ where `ImageProcessing_30.py` and `ImageProcessing_90.py` used different thresho
 
 The output will include Apple detections with annotations.
 
-![ImageProcessing_90 Result](Results/Image%20processing/FigureA1_90.png)
-![ImageProcessing_30 Result](Results/Image%20processing/FigureA1_30.png)
-![ImageProcessing_F Result](Results/Image%20processing/FigureA1_79F.png)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="Results/Image%20processing/FigureA1_90.png" alt="ImageProcessing_90 Result" style="width: 31%;">
+  <img src="Results/Image%20processing/FigureA1_30.png" alt="ImageProcessing_30 Result" style="width: 31%;">
+  <img src="Results/Image%20processing/FigureA1_79F.png" alt="ImageProcessing_F Result" style="width: 31%;">
+</div>
 
 
 ### **2. Run Approach B**
@@ -60,10 +62,12 @@ python test_MinneApple.py
 ```bash
 python test_counting.py
 ```
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="Results/Some%20Machine%20learing%20Results/detected_dataset1_back_1.png" alt="ImageProcessing_90 Result" style="width: 31%;">
+  <img src="Results/Some%20Machine%20learing%20Results/detected_dataset3_back_90.png" alt="ImageProcessing_30 Result" style="width: 31%;">
+  <img src="Results/Some%20Machine%20learing%20Results/detected_dataset4_front_240.png" alt="ImageProcessing_F Result" style="width: 31%;">
+</div>
 
-![ImageProcessing_90 Result](Results/Some%20Machine%20learing%20Results/detected_dataset1_back_1.png)
-![ImageProcessing_30 Result](Results/Some%20Machine%20learing%20Results/detected_dataset3_back_90.png)
-![ImageProcessing_F Result](Results/Some%20Machine%20learing%20Results/detected_dataset4_front_240.png)
 
 #### **Quantitative Results**
 | Metric           | Method B  |
@@ -74,17 +78,24 @@ python test_counting.py
 | Mean Accuracy   | 0.8424    |
 
 #### **Counting Metrics Visualization**
-1. Scatter plot of predicted counts vs. ground truth counts:
-   ![Scatter Plot](Results/Evaluation%20Machine%20learning/scatter%20diagram.png)
+1. Scatter plot of predicted counts vs. ground truth counts
 
-2. Histogram of prediction errors:
-   ![Histogram](Results/Evaluation%20Machine%20learning/error%20histogram.png)
+2. Histogram of prediction errors
 
-3. Line plot of predicted vs. ground truth counts:
-   ![Line Plot](Results/Evaluation%20Machine%20learning/line%20plot.png)
+3. Line plot of predicted vs. ground truth counts
 
-4. Box plot of ground truth and predicted counts:
-   ![Box Plot](Results/Evaluation%20Machine%20learning/box%20plots.png)
+4. Box plot of ground truth and predicted counts
+
+<table>
+  <tr>
+    <td><img src="Results/Evaluation%20Machine%20learning/scatter%20diagram.png" alt="ImageProcessing_90 Result" style="width: 400px;"></td>
+    <td><img src="Results/Evaluation%20Machine%20learning/error%20histogram.png" alt="ImageProcessing_30 Result" style="width: 400px;"></td>
+  </tr>
+  <tr>
+    <td><img src="Results/Evaluation%20Machine%20learning/line%20plot.png" alt="ImageProcessing_F Result" style="width: 400px;"></td>
+    <td><img src="Results/Evaluation%20Machine%20learning/box%20plots.png" alt="ImageProcessing_F Result" style="width: 400px;"></td>
+  </tr>
+</table>
 
 ## **Conclusion**
 Both methods offer valuable insights into apple detection and counting:
