@@ -36,7 +36,7 @@ where `ImageProcessing_30.py` and `ImageProcessing_90.py` used different thresho
 The output will include Apple detections with annotations.
 
 ![ImageProcessing_90 Result](Results/Image_processing/FigureA1_90.png)
-![ImageProcessing_30 Result](Results/Image processing/FigureA1_30.png)
+![ImageProcessing_30 Result](Results/Image_processing/FigureA1_30.png)
 ![ImageProcessing_F Result](Results/Image_processing/FigureA1_79F.png)
 
 ### **2. Run Approach B**
