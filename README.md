@@ -60,6 +60,11 @@ python test_MinneApple.py
 ```bash
 python test_counting.py
 ```
+
+![ImageProcessing_90 Result](Results/Some%20Machine%20learing%20Results/detected_dataset1_back_1.png)
+![ImageProcessing_30 Result](Results/Some%20Machine%20learing%20Results/detected_dataset3_back_90.png)
+![ImageProcessing_F Result](Results/Some%20Machine%20learing%20Results/detected_dataset4_front_240.png)
+
 #### **Quantitative Results**
 | Metric           | Method B  |
 |------------------|-----------|
@@ -81,3 +86,8 @@ python test_counting.py
 4. Box plot of ground truth and predicted counts:
    ![Box Plot](Results/Evaluation%20Machine%20learning/box%20plots.png)
 
+## **Conclusion**
+Both methods offer valuable insights into apple detection and counting:
+- Approach A provides comprehensive detection but requires manual tuning and struggles with accuracy in complex scenarios.
+- Approach B leverages machine learning for higher accuracy and is particularly suitable for automated harvesting tasks.
+- Approach A has a wider detection range and may be suitable for applications that require a complete inventory of apples, including apples on the ground. However, because it relies on feature engineering, it is sensitive to environmental changes such as illumination and background complexity. In contrast, Approach B makes use of feature learning, which enables it to generalize under various conditions and is more suitable for practical application scenarios such as automatic picking. However, the model performance of Approach B depends on effective data preparation and model training, factors that directly affect its accuracy.
