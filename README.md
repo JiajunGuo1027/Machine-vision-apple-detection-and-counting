@@ -2,10 +2,15 @@
 This repository contains the implementation of an apple detection and counting system, utilizing both traditional image processing techniques (Method A) and machine learning-based approaches (Method B). The project was developed to address challenges in apple detection under varying environmental conditions such as illumination, occlusion, and appearance diversity.
 
 ## Download Pre-trained Models and Results
-You can download the pre-trained models and output results from the GitHub Releases section.
+You can download the pre-trained models and output results from the GitHub Releases section. Due to the large model size, it is divided into six files for compression.
 
-- [Download output.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v1.0.0/output.zip)
-- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models.zip)
+- [Download output.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/output.zip)
+- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models1.zip)
+- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models2.zip)
+- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models3.zip)
+- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models4.zip)
+- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models5.zip)
+- [Download saved_models.zip](https://github.com/JiajunGuo1027/Machine-vision-apple-detection-and-counting/releases/download/v2.0.0/saved_models6.zip)
 
 Please extract these files into the corresponding directories before running the scripts.
 
